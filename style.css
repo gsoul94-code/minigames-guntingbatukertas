@@ -1,0 +1,104 @@
+:root {
+  box-sizing: border-box;
+}
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#title1 {
+  text-align: center;
+  color: aliceblue;
+}
+
+#title2 {
+  display: none;
+  text-align: center;
+  color: aliceblue;
+}
+
+#versus {
+  display: none;
+  text-align: center;
+  font-size: 50px;
+  color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#hasilPertandingan {
+  display: none;
+
+  text-align: center;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+/* .h2HasilPertandingan {
+  font-size: 100px;
+} */
+
+#app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: bisque;
+}
+
+.divHasil {
+  margin: 0 auto;
+  background-color: #333;
+  border-radius: 1em;
+  width: 350px;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.games {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divOpsi {
+  width: 4%;
+  margin: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 1em;
+}
+
+.divOpsiGunting {
+  background-color: #ec0d47;
+}
+
+.divOpsiBatu {
+  background-color: #fbbe54;
+}
+
+.divOpsiKertas {
+  background-color: #067353;
+}
+
+.divOpsi:hover {
+  cursor: pointer;
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+  -webkit-transform: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+  -moz-transform: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+  -ms-transform: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+  -o-transform: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
+}
