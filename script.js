@@ -57,7 +57,6 @@ class Start{
             return `YAH! ${this.pemenang}, tanding lagi! 🔥`;
         }
     }
-
 }
 
 function pilihOpsi(params){
